@@ -1,0 +1,85 @@
+/* Fondo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Títulos */
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #ffdd57;
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 1.8em;
+    color: #ffdd57;
+}
+
+/* Área de texto */
+.text-area {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 2px solid #ffdd57;
+    padding: 10px;
+    font-size: 1.1em;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Contenedor de botones */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Botones */
+.btn {
+    background-color: #ffdd57;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffc107;
+}
+
+.btn-copy {
+    background-color: #28a745;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.btn-copy:hover {
+    background-color: #218838;
+}
+
